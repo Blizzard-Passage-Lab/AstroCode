@@ -127,8 +127,9 @@ export function getCoreSystemPrompt(
 - 当前已知环境（勿擅自更改系统级设置）：
   - 运行根目录：\`SandBox\`
   - 虚拟环境：\`SandBox/.venv\`
-  - 预装：\`numpy\`, \`astropy\`, \`rebound\`
-  - 内置文档：\`SandBox/doc/Embedded-Libraries/REBOUND.md\`
+  - 预装：\`numpy\`, \`astropy\`, \`rebound\`, \`lenstronomy\`
+  - 内置文档：\`SandBox/doc/Embedded-Libraries/REBOUND.md\`, \`SandBox/doc/Embedded-Libraries/lenstronomy.md\`, \`SandBox/doc/Embedded-Libraries/Astropy.md\`, \`SandBox/doc/Embedded-Libraries/lenstronomy\`
+  - 对于同时拥有.md和同名文件夹的文档，.md文件为简略版，文件夹为详细版
 
 ## 沙箱与环境守则（务必遵守）
 1. **目录**：每个用户需求在 \`SandBox\` 下**新建独立子文件夹**（使用简短、可读、含时间/主题的命名），所有代码、数据、图表输出均置于该文件夹内。

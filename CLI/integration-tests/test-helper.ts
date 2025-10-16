@@ -119,7 +119,7 @@ export class TestRig {
   _lastRunStdout?: string;
 
   constructor() {
-    this.bundlePath = join(__dirname, '..', 'bundle/gemini.js');
+    this.bundlePath = join(__dirname, '..', 'bundle/AstroCode.js');
     this.testDir = null;
   }
 

@@ -53,7 +53,7 @@
     "clean": "node scripts/clean.js"
   },
   "bin": {
-    "storm": "bundle/gemini.js"
+    "storm": "bundle/AstroCode.js"
   },
   "files": [
     "bundle/",
